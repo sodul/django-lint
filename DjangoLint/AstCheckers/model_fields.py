@@ -34,14 +34,14 @@ class ModelFieldsChecker(BaseChecker):
             "%s: Naive tree structure implementation using ForeignKey('self')",
         ''),
         'W6002': (
-            'Model has too many fields (%d/%d); consider splitting model',
+            'Model has too many fields (%s/%s); consider splitting model',
         ''),
         'W6003': ('Model has no fields', ''),
         'W6004': ('%s: Field is nullable but blank=False', ''),
         'W6005': ('%s: uses brittle unique_for_%s', ''),
         'W6006': ('%s: ForeignKey missing related_name', ''),
         'W6007': (
-            '%s: CharField with huge (%d/%d) max_length instead of TextField',
+            '%s: CharField with huge (%s/%s) max_length instead of TextField',
         ''),
         'W6008': ('%s: Uses superceded auto_now or auto_now_add', ''),
         'W6009': (
